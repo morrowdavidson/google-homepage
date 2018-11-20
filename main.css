@@ -34,6 +34,9 @@ li{
     margin-bottom: -10px;
     opacity: 0.75;
 }
+#googleAppsLogo:hover{
+    opacity: 1;
+}
 .nav_button{
     color: #fff;
     border:1px solid #42B5f4;
@@ -69,9 +72,9 @@ li{
 .main_button {
     cursor: pointer;
     height: 36px;
-    border: 1px solid #c6c6c6;
+    border: 1px solid #e2e2e2;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    color: #222;
+    color: #444;
     background-color: #f8f8f8;
     background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
     font-family: arial,sans-serif;
@@ -82,6 +85,11 @@ li{
     padding: 0 16px;
     text-align: center;
     opacity: 0.75;
+}
+.main_button:hover {
+    color: #000;
+    background-image: -moz-linear-gradient(top,#fff,#f1f1f1);
+    border: 1px solid #cfcfcf;
 }
 #searchBtn {
     margin-left: 115px;
