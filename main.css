@@ -1,29 +1,36 @@
 body {
     font-family: arial, sans-serif;
 }
+main {
+    min-width:500px;
+}
 a {
     font-size: small;
     text-decoration: none;
     color: #000;
     opacity: 0.75;
 }
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-li{
+li {
     display: inline-block;
     padding-left:15px;
 }
-#aboutNav {
+header{
+    min-width: 500px;
     position: absolute;
     top:20px;
+    width:100%
+}
+#aboutNav {
+    float:left;
 }
 #appNav {
-    position: absolute;
-    top:20px;
-    right:20px;
+    float:right;
+    margin-right:15px
 }
-#googleAppsLogo{
+#googleAppsLogo {
     background-image: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px;
     background-position: -132px -38px;
@@ -34,7 +41,7 @@ li{
     margin-bottom: -10px;
     opacity: 0.75;
 }
-#googleAppsLogo:hover{
+#googleAppsLogo:hover {
     opacity: 1;
 }
 .nav_button{
@@ -46,6 +53,12 @@ li{
     padding: 6px 12px;
     border-radius: 2px;
     opacity: 1;
+    text-decoration: none;
+}
+.nav_button:hover{
+    text-decoration: none;
+    background:-moz-linear-gradient(top,#70a5ff,#4683ea);
+    background: linear-gradient(top,#70a5ff,#4683ea);
 }
 #googleLogo {
     padding-top:175px;
@@ -69,6 +82,9 @@ li{
     font: 16px arial,sans-serif;
     text-indent: 20px;
 }
+#searchBox:focus, #searchBox:hover {
+    box-shadow: 0px 3px 6px 1px rgba(0, 9, 83, 0.16),0 0 0 1px rgba(0, 9, 83,0.08);
+}
 .main_button {
     cursor: pointer;
     height: 36px;
@@ -90,25 +106,28 @@ li{
     color: #000;
     background-image: -moz-linear-gradient(top,#fff,#f1f1f1);
     border: 1px solid #cfcfcf;
+
 }
 #searchBtn {
     margin-left: 115px;
 }
-#footer {
+footer {
     position: absolute;
     bottom: 0px;    
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     width:100%;
-    padding: 10px 0 0 0;
-    
+    padding: 10px 0 15px 0;
+    min-width:500px;
 }
-#footer a {
+footer a {
     color: #5f6368;
+    display:block;
+}
+#busNav {
+    float:left;
 }
 #settingNav {
   float: right;
-  position: relative;
-  bottom: 18px;
   margin-right:20px;
 }
