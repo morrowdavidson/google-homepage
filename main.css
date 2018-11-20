@@ -34,12 +34,14 @@ header{
     background-image: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px;
     background-position: -132px -38px;
-    height: 30px;
-    width: 30px;
+    height: 0;
+    width: 0;
+    padding:15px;
     display: block;
     margin-top: -10px;
     margin-bottom: -10px;
     opacity: 0.75;
+    border-style:none;
 }
 #googleAppsLogo:hover {
     opacity: 1;
@@ -48,6 +50,7 @@ header{
     color: #fff;
     border:1px solid #42B5f4;
     font-weight: bold;
+    background-color: #4683ea;
     background:-moz-linear-gradient(top,#4387fd,#4683ea);
     background: linear-gradient(top,#4387fd,#4683ea);
     padding: 6px 12px;
@@ -57,6 +60,7 @@ header{
 }
 .nav_button:hover{
     text-decoration: none;
+    background-color:#4387fd;
     background:-moz-linear-gradient(top,#70a5ff,#4683ea);
     background: linear-gradient(top,#70a5ff,#4683ea);
 }
