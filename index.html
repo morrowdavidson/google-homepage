@@ -7,10 +7,10 @@
     </head>
     <body>
         <img id="googleLogo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <form>
-            <input id="searchBox" type="text">
-            <input value="Google Search" id="searchBtn" type="submit">
-            <input value="I'm Feeling Lucky" id="qckSearchBtn" type="submit">
+        <form id="searchForm">
+            <input id="searchBox" title="search" type="text">
+            <input value="Google Search" id="searchBtn" class="main_button" type="submit">
+            <input value="I'm Feeling Lucky" id="qckSearchBtn" class="main_button" type="submit">
         </form>
         <ul id="aboutNav">
             <li><a href="">About</a></li>
@@ -20,16 +20,18 @@
             <li><a href="">Gmail</a></li>
             <li><a href="">Images</a></li>
             <li><a href=""><img id="googleAppsLogo"></a></li>
-            <li><a class="blue_button" href="">Sign In</a></li>
+            <li><a class="nav_button" href="">Sign In</a></li>
         </ul>
-        <ul id="busNav">
-            <li><a href="">Advertising</a></li>
-            <li><a href="">Business</a></li>
-        </ul>
-        <ul id="settingNav">
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Setting</a></li>
-        </ul>
+        <div id="footer">
+            <ul id="busNav">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+            </ul>
+            <ul id="settingNav">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Setting</a></li>
+            </ul>
+        </div>
     </body>
 </html>
